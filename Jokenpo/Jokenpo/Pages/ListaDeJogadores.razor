@@ -1,0 +1,33 @@
+﻿@page "/"
+@inherits ListaDeJogadoresBase
+
+
+<h3>Lista de Jogadores</h3>
+<a href="@("/vencedores")" class="btn btn-primary m-1">Jogar</a>
+@if (Jogadores == null)
+{
+    <div class="spinner"></div>
+}
+else
+{
+    <div class="card-deck">
+        @foreach (var jogador in Jogadores)
+        {
+            <div class="card m-3" style="min-width: 18rem; max-width:30.5%;">
+                <div class="card-header">
+                    <h3>@jogador.Nome @jogador.SobreNome</h3>
+                </div>
+                <img class="card-img-top imageThumbnail" src="@jogador.CaminhoFoto" />
+                <div class="card-footer text-center">
+                    <a href="@($"detalhesjogador/{jogador.id}")" class="btn btn-primary m-1">Ver</a>
+
+                    <a href="@($"editjogador/{jogador.id}")" class="btn btn-primary m-1">Editar</a>
+
+                    <button type="button" class="btn btn-danger m-1" @onclick="(() => Deletar_Click(jogador.id))">
+                        Deletar
+                    </button>
+                </div>
+            </div>
+        }
+    </div>
+}

@@ -1,0 +1,30 @@
+﻿@page "/detalhesjogador/{id}"
+@inherits DetalhesJogadorBase
+
+<h3>Detalhes do Jogador</h3>
+
+
+<div class="row justify-content-center m-3">
+    <div class="col-sm-8">
+        <div class="card">
+            <div class="card-header">
+                <h1>@Jogador.Nome @Jogador.SobreNome @Coordenadas</h1>
+            </div>
+
+            <div class="card-body text-center">
+                <img class="card-img-top" src="@Jogador.CaminhoFoto"
+                     @onmousemove="@Mouse_Move"/>
+
+                <h4>Jogador ID : @Jogador.id</h4>
+                <h4>Movimento: @Jogador.movementos</h4>
+
+            </div>
+            <div class="card-footer text-center">
+                <a href="/" class="btn btn-primary">Back</a>
+                <a href="@($"editjogador/{Jogador.id}")" class="btn btn-primary">Edit</a>
+                <a href="#" class="btn btn-danger" >Delete</a>
+            </div>
+        </div>
+    </div>
+</div>
+

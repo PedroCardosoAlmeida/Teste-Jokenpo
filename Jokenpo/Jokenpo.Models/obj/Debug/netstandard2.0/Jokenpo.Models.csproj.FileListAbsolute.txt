@@ -1,0 +1,9 @@
+C:\Users\sephi\source\repos2020\Jokenpo\Jokenpo.Models\bin\Debug\netstandard2.0\Jokenpo.Models.deps.json
+C:\Users\sephi\source\repos2020\Jokenpo\Jokenpo.Models\bin\Debug\netstandard2.0\Jokenpo.Models.dll
+C:\Users\sephi\source\repos2020\Jokenpo\Jokenpo.Models\bin\Debug\netstandard2.0\Jokenpo.Models.pdb
+C:\Users\sephi\source\repos2020\Jokenpo\Jokenpo.Models\obj\Debug\netstandard2.0\Jokenpo.Models.csprojAssemblyReference.cache
+C:\Users\sephi\source\repos2020\Jokenpo\Jokenpo.Models\obj\Debug\netstandard2.0\Jokenpo.Models.AssemblyInfoInputs.cache
+C:\Users\sephi\source\repos2020\Jokenpo\Jokenpo.Models\obj\Debug\netstandard2.0\Jokenpo.Models.AssemblyInfo.cs
+C:\Users\sephi\source\repos2020\Jokenpo\Jokenpo.Models\obj\Debug\netstandard2.0\Jokenpo.Models.dll
+C:\Users\sephi\source\repos2020\Jokenpo\Jokenpo.Models\obj\Debug\netstandard2.0\Jokenpo.Models.pdb
+C:\Users\sephi\source\repos2020\Jokenpo\Jokenpo.Models\obj\Debug\netstandard2.0\Jokenpo.Models.csproj.CoreCompileInputs.cache
